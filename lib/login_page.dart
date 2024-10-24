@@ -31,7 +31,7 @@ class LoginPage extends StatelessWidget {
             ),
             TextButton(
                 onPressed: () {
-                  Navigator.pushNamed(context, '/register');
+                  Navigator.pushNamed(context, '/resgister');
                 },
                 child: Text(
                   'Belum punya akun ? Daftar',

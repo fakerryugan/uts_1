@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uts_1/widget/pop_up.dart';
 
 class RegisterPage extends StatelessWidget {
   Widget build(BuildContext context) {
@@ -37,7 +38,9 @@ class RegisterPage extends StatelessWidget {
             ),
             SizedBox(height: 20),
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                popupregister(context);
+              },
               child: Text('Daftar'),
             ),
             TextButton(
