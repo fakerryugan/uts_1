@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:uts_1/userdara.dart';
+import 'package:uts_1/widget/pop_up.dart';
 
 class LoginPage extends StatelessWidget {
+  final TextEditingController emailcontroller = TextEditingController();
+  final TextEditingController passwordcontroller = TextEditingController();
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -15,18 +19,29 @@ class LoginPage extends StatelessWidget {
             Icon(Icons.person, size: 100, color: Colors.blueAccent),
             SizedBox(height: 20),
             TextField(
+              controller: emailcontroller,
               decoration: InputDecoration(
                   labelText: 'Email Anda', border: OutlineInputBorder()),
             ),
             SizedBox(height: 20),
             TextField(
+              controller: passwordcontroller,
               decoration: InputDecoration(
                   labelText: 'Password Anda', border: OutlineInputBorder()),
               obscureText: true,
             ),
             SizedBox(height: 20),
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                {
+                  if (emailcontroller.text == UserData.email &&
+                      passwordcontroller.text == UserData.password) {
+                    popupbenar(context, UserData.namaLengkap);
+                  } else {
+                    popupsalah(context);
+                  }
+                }
+              },
               child: Text('Login'),
             ),
             TextButton(
