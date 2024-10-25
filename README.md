@@ -1,16 +1,3 @@
-# uts_1
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![WhatsApp Image 2024-10-25 at 09 31 47](https://github.com/user-attachments/assets/fd6d7cdd-711e-4b48-9b13-b5e89915deab)
+![WhatsApp Image 2024-10-25 at 09 34 22](https://github.com/user-attachments/assets/08fd2ea2-8915-45d7-b76f-470951d8c5b0)
+![WhatsApp Image 2024-10-25 at 09 31 47 (1)](https://github.com/user-attachments/assets/7d0b7de5-0c5a-449b-af47-0ff6718e540e)
