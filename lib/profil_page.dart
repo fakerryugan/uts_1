@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:uts_1/widget/infoisitabel.dart';
 import 'userdara.dart';
@@ -39,7 +41,7 @@ class ProfilPage extends StatelessWidget {
               SizedBox(height: 20),
               ElevatedButton(
                 onPressed: () {
-                  Navigator.pushReplacementNamed(context, '/login');
+                  exit(0);
                 },
                 child: Text('Logout'),
               ),
